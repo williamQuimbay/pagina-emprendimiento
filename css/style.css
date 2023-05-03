@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.logo img {
+  width: 30%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 2rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  box-shadow: 1px 0.5px 1px 1px black;
+  text-shadow: 0.5px 0.25 rgb(105, 103, 103);
+}
+
+.boton-registro,
+.boton-inicio-sesion {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.boton-registro {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.boton-inicio-sesion {
+  background-color: #f9f9f9;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.boton-registro:hover {
+  background-color: #0069d9;
+}
+
+.boton-inicio-sesion:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+}
+
+.hero img {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.hero p {
+  max-width: 60%;
+  margin-bottom: 2rem;
+}
+
+.boton-cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.boton-cta:hover {
+  background-color: #0069d9;
+}
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+.servicios h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.servicios ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.servicios li {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 30px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 90%;
+  z-index: 999;
+}
+
+.logo img {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav a:hover {
+  box-shadow: 1px 0.5px 1px 1px black;
+  text-shadow: 0.5px 0.25 rgb(105, 103, 103);
+}
+
+/* Estilos para el formulario */
+form {
+  margin: 100px auto;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.Antecedentes {
+  margin: 10px;
+}
+input {
+  margin: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 45px;
+  width: 95px;
+}
+button[type="submit"]:hover {
+  background-color: rgb(58, 177, 58);
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 30px;
+  text-align: center;
+}

@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  width: 30%;
+}
+
+header {
+  background-color: #cfcece;
+  color: #c0b8b8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header a {
+  color: #292828;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  box-shadow: 1px 0.5px 1px 1px black;
+  text-shadow: 0.5px 0.25 rgb(105, 103, 103);
+}
+
+.servicios {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.servicios h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.servicios ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.servicios li {
+  margin-bottom: 50px;
+}
+
+.servicios h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.servicios p {
+  margin-bottom: 10px;
+}
+
+.boton-cta {
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.boton-cta:hover {
+  background-color: #e67e22;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.875rem;
+}

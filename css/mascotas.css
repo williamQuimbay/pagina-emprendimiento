@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 1;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.logo img {
+  height: 100px;
+}
+
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+nav a {
+  color: #3a3838;
+  text-decoration: none;
+}
+
+nav a:hover {
+  box-shadow: 1px 0.5px 1px 1px black;
+  text-shadow: 0.5px 0.25 rgb(105, 103, 103);
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.registro-mascotas {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.registro-mascotas h2 {
+  margin-top: 0;
+}
+
+.registro-mascotas label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registro-mascotas input[type="text"],
+.registro-mascotas input[type="number"],
+.registro-mascotas textarea,
+.registro-mascotas select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.registro-mascotas input[type="submit"] {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registro-mascotas input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #2c3e50;
+}
+
+.boton-cta {
+  background-color: #e74c3c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-cta:hover {
+  background-color: #ffffff;
+  color: #e74c3c;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.875rem;
+}
