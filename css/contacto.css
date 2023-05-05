@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0.1rem;
+}
+
+body {
+  margin: 0.1rem;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem;
+  padding-right: 2rem;
+  background-color: #cfcfcf;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.logo img {
+  width: 30%;
+}
+header a {
+  color: #292828;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 0.1rem;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  box-shadow: 1px 0.5px 1px 1px black;
+  text-shadow: 0.5px 0.25 rgb(105, 103, 103);
+}
+
+/* Estilos de la sección de contacto */
+main .contacto {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .contacto .container {
+  flex: 2;
+  margin-right: 50px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.container button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 10px;
+  text-justify: auto;
+}
+
+.container .mapa {
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.boton-registro,
+.boton-inicio-sesion {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.boton-registro {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.boton-inicio-sesion {
+  background-color: #f9f9f9;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.boton-registro:hover {
+  background-color: #0069d9;
+}
+
+.boton-inicio-sesion:hover {
+  background-color: #333;
+  color: #fff;
+}

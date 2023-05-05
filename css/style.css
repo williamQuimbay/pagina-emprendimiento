@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0.1rem;
-  background-color: #ffffff;
+  background-color: #cfcfcf;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
@@ -37,7 +37,7 @@ nav ul {
 }
 
 nav li {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 nav a {

@@ -18,6 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0.1rem;
+  padding-right: 2rem;
   background-color: #cfcfcf;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -30,29 +31,26 @@ header {
   width: 30%;
 }
 
-header a {
-  color: #292828;
-  text-decoration: none;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 nav li {
-  margin-left: 20px;
-}
-
-nav li:first-child {
-  margin-left: 0;
+  margin-right: 2rem;
 }
 
 nav a {
-  display: block;
-  padding: 10px;
+  color: #333;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -60,50 +58,53 @@ nav a:hover {
   text-shadow: 0.5px 0.25 rgb(105, 103, 103);
 }
 
-.servicios {
+/* Estilos para la lista de planes de servicio */
+.plan-list {
+  margin: 50px auto;
   max-width: 800px;
-  margin: 0 auto;
-  padding: 50px 20px;
+  padding: 0 20px;
 }
 
-.servicios h2 {
-  font-size: 36px;
-  margin-bottom: 30px;
+main h1 {
+  text-align: center;
 }
 
-.servicios ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.servicios li {
-  margin-bottom: 50px;
-}
-
-.servicios h3 {
+h2 {
   font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.servicios p {
+  font-weight: bold;
+  color: #333333;
   margin-bottom: 10px;
 }
 
-.boton-cta {
-  background-color: #f39c12;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+.plan-price {
+  font-size: 20px;
+  color: #00a7c1;
+  margin-bottom: 10px;
+}
+
+.plan-description {
   font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
 }
 
-.boton-cta:hover {
-  background-color: #e67e22;
+.cta-button {
+  display: block;
+  background-color: #00a7c1;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
+.cta-button:hover {
+  background-color: #333333;
+}
+.boton-registro,
 .boton-inicio-sesion {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -113,10 +114,19 @@ nav a:hover {
   cursor: pointer;
 }
 
+.boton-registro {
+  background-color: #007bff;
+  color: #fff;
+}
+
 .boton-inicio-sesion {
-  background-color: rgb(0, 123, 255);
-  color: #ffffff;
+  background-color: #f9f9f9;
+  color: #333;
   border: 1px solid #333;
+}
+
+.boton-registro:hover {
+  background-color: #0069d9;
 }
 
 .boton-inicio-sesion:hover {
@@ -124,10 +134,10 @@ nav a:hover {
   color: #fff;
 }
 
+/* Estilos para el pie de página */
 footer {
-  text-align: center;
-  padding: 1rem;
   background-color: #333;
   color: #fff;
-  font-size: 0.875rem;
+  padding: 20px 30px;
+  text-align: center;
 }
