@@ -125,8 +125,29 @@ main .contacto .container {
   text-justify: auto;
 }
 
+#whatsapp button {
+  width: 15rem;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #45a049;
+  color: white;
+}
+#whatsapp button a {
+  color: white;
+}
+
+#whatsapp button:hover {
+  background-color: #1f6122;
+  color: white;
+  box-shadow: 4px 2px black;
+}
+#whatsapp p:hover {
+  color: rgb(0, 0, 0);
+}
+
 #whatsapp img {
-  width: 2%;
+  width: 10%;
   position: relative;
   left: 0.1rem;
 }
@@ -135,10 +156,6 @@ main .contacto .container {
   text-decoration: none;
   color: black;
 }
-#whatsapp p:hover {
-  font-size: 16px;
-}
-
 .container .mapa {
   margin-top: 20px;
   position: relative;
