@@ -162,6 +162,12 @@ main .contacto .container {
   padding-bottom: 56.25%;
   height: 0;
 }
+h1 {
+  text-shadow: 4px 2px rgb(160, 163, 160);
+}
+h1:hover {
+  opacity: 0.8;
+}
 
 .container iframe {
   left: 0;
